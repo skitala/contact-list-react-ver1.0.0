@@ -1,13 +1,209 @@
+@import url("https://fonts.googleapis.com/css?family=Muli");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-family: "Muli", sans-serif;
+  font-weight: 700;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.firstPageCont {
+  background-color: rgb(245, 218, 170);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  box-shadow: 8px 10px;
+  background-color: rgb(243, 168, 28);
+  border-radius: 20px;
+  height: 70px;
+  width: 90vw;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.contactListCont {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.btnsCont {
+  display: flex;
+  justify-content: flex-end;
+}
+.dataFields {
+  flex-wrap: wrap;
+  word-wrap: normal;
+}
+
+.contactItemFormCont {
+  height: 100vh;
+  display: flex;
+  background-color: rgb(245, 218, 170);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactItemForm {
+  justify-content: space-evenly;
+  transition: 1s ease;
+  background-color: rgb(243, 168, 28);
+  box-shadow: 8px 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  width: 500px;
+}
+
+.dataInputs {
+  width: 90%;
+  height: 40px;
+  border-radius: 10px;
+  transition: 1s ease;
+}
+.dataInputs:hover {
+  background-color: rgb(245, 218, 170);
+}
+.submitButton {
+  border-radius: 10px;
+  border: none;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  transition: 1s ease;
+}
+.submitButton:hover {
+  background-color: rgb(245, 218, 170);
+}
+.contactListPageCont {
+  background-color: rgb(245, 218, 170);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.hide-showContactsBtn {
+  background-color: crimson;
+  border-radius: 10px;
+  border: none;
+  width: 350px;
+  height: 50px;
+  cursor: pointer;
+  transition: 1s ease;
+}
+.dotRemoval {
+  list-style-type: none;
+}
+.addContactBtn {
+  background-color: rgb(44, 240, 44);
+  border-radius: 10px;
+  border: none;
+  width: 350px;
+  height: 50px;
+  cursor: pointer;
+  transition: 1s ease;
+  margin-top: 5px;
+}
+.home-SearchBtnCont {
+  display: flex;
+  top: 0px;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 50px;
+}
+.homeBtn {
+  background-color: rgb(243, 168, 28);
+  border-radius: 10px;
+  border: none;
+  width: 350px;
+  height: 50px;
+  cursor: pointer;
+  transition: 1s ease;
+  margin-top: 5px;
+}
+.searchInput {
+  width: 70%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+}
+.searchBtn {
+  border: none;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+.editBtn {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.deleteBtn {
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.submitEditButton {
+  background-color: rgb(44, 240, 44);
+  border-radius: 10px;
+  border: none;
+  width: 350px;
+  height: 50px;
+  cursor: pointer;
+  transition: 1s ease;
+  margin-top: 5px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 20vh;
+  bottom: 20vh;
+  width: 100%;
+  height: 50vh;
+}
+.modalCont {
+  max-width: 25%;
+  max-height: 100%;
+  width: 50%;
+  height: 50%;
+  position: fixed;
+  /* top: 40%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  display: flex;
+  background-color: rgb(245, 218, 170);
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.9);
+}
+.content {
+  display: flex;
+  width: 100%;
+  height: 60%;
+  /* flex-direction: column; */
+  justify-content: center;
+  text-align: center;
 }

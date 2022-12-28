@@ -1,0 +1,46 @@
+{
+  "contacts": [
+    {
+      "name": "Ognjen Blesic",
+      "email": "12312312@g.co",
+      "phoneNum": "123123123",
+      "id": 3
+    },
+    {
+      "name": "Gordana Matic",
+      "email": "g@gm.co",
+      "phoneNum": "0113581207",
+      "id": 7
+    },
+    {
+      "name": "Vojin Blesic",
+      "email": "v@g.co",
+      "phoneNum": "123123213",
+      "id": 8
+    },
+    {
+      "name": "Nikola Djurkovic",
+      "email": "johnyx96@gmail.com",
+      "phoneNum": "123123123",
+      "id": 9
+    },
+    {
+      "name": "Nikola Djurkovic",
+      "email": "johnyx96@gmail.com",
+      "phoneNum": "21321312",
+      "id": 10
+    },
+    {
+      "name": "Nikola Djurkovic",
+      "email": "johnyx96@gmail.com",
+      "phoneNum": "123123123",
+      "id": 11
+    },
+    {
+      "name": "Stefan Djurkovic",
+      "email": "stefan@gmail.com",
+      "phoneNum": "3213123123",
+      "id": 12
+    }
+  ]
+}
